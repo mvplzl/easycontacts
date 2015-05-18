@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button 
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看功能"
+        android:onClick="check"/>
+    <Button 
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="增加功能"
+        android:onClick="add"/>
+    <Button 
+        android:id="@+id/dial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拨号功能"
+        android:onClick="dial"/>
+    <Button 
+        android:id="@+id/alter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改功能"
+        android:onClick="alter"/>
+    <Button 
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="删除功能"
+        android:onClick="delete"/>
+
+</LinearLayout>
